@@ -7,4 +7,6 @@
     <string name="data">Data para Realização</string>
     <string name="selectdata">SELECIONE A DATA</string>
     <string name="salvar">SALVAR</string>
+    <string name="infoTarefa">Informe a Tarefa</string>
+    <string name="infoData">Informe a data</string>
 </resources>
