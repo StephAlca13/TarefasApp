@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/cadTarefaFragment"
+    app:startDestination="@id/principalFragment"
     >
     <fragment
         android:id="@+id/principalFragment"
         android:name="br.senai.sp.cotia.todolistapp.fragment.PrincipalFragment"
-        android:label="fragment_principal"
+        android:label="Página Inicial"
         tools:layout="@layout/fragment_principal" >
         <action
             android:id="@+id/action_principalFragment_to_detalheTarefaFragment"
@@ -29,7 +29,7 @@
     <fragment
         android:id="@+id/cadTarefaFragment"
         android:name="br.senai.sp.cotia.todolistapp.fragment.CadTarefaFragment"
-        android:label="fragment_cad_tarefa"
+        android:label="Adicione sua Tarefa"
         tools:layout="@layout/fragment_cad_tarefa" />
     <fragment
         android:id="@+id/cadSubTarefaFragment2"

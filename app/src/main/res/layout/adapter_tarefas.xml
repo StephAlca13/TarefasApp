@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="50dp">
+
+    <LinearLayout
+        android:id="@+id/adapter_tarefas"
+        android:padding="20dp"
+        android:background="#ecffe6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estudar Android"
+        android:background="@drawable/border"
+        android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_descricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:text="Complemento da sua descrição..."/>
+
+
+    <TextView
+        android:id="@+id/tv_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:text="10/06/2022"/>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finalizada"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:backgroundTint="#1aff66"
+        android:background="@drawable/border"
+        />
+
+
+</LinearLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

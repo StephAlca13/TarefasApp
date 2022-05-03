@@ -9,4 +9,7 @@
     <string name="salvar">SALVAR</string>
     <string name="infoTarefa">Informe a Tarefa</string>
     <string name="infoData">Informe a data</string>
+    <string name="tfAberta">Aberta</string>
+    <string name="tfConcluida">Concluída</string>
+
 </resources>
