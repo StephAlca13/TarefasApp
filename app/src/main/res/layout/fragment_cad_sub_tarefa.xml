@@ -3,12 +3,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.CadSubTarefaFragment">
+    tools:context=".fragment.CadSubTarefaFragment"
+    android:background="@color/verde">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/titulo"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"/>
+
+    <TextView
+        android:id="@+id/subtarefa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/subtarefa"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite a subtarefa"
+        android:lines="2"
+        android:layout_marginTop="60dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:src="@drawable/foto"
+        android:background="@color/green"/>
+
 
 </FrameLayout>
